@@ -1,0 +1,275 @@
+.body_txt {
+ /* body width - you can update it */
+ width: 680px;
+
+ margin:0;
+ padding:0;
+}
+
+
+input.i_text {
+ font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+ border: 1px solid #757575;
+ width: 140px;
+}
+
+input.i_focus { 
+ border: 1px solid #007E00;
+ background-color: #EBFFEB; 
+ width: 140px;
+}
+
+input.btn_add {
+ font-weight: bold;
+ color: #373737;
+}
+
+input.btn_search {
+ font-weight: bold;
+ color: #373737;
+}
+
+input.i_nbre_car {
+ font-size: 1em; 
+ background-color: transparent; 
+ border: 0px none; 
+ font-weight: bold; 
+ color: #e77623;
+}
+
+input.i_nbre_car_focus {
+ font-size: 1em; 
+ background-color: #EBFFEB; 
+ border: 0px none; 
+ font-weight: bold; 
+ color: #e77623;
+}
+
+textarea.i_comment {
+ font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+ border: 1px solid #757575;
+ width: 430px;
+}
+
+textarea.i_comment_focus {
+ border: 1px solid #007E00;
+ background-color: #EBFFEB; 
+ width: 430px;
+}
+
+
+img.img_left{
+ float: left;
+}
+
+.d_title {
+ font-family: Arial, Helvetica, sans-serif; 
+ font-weight: bold;
+ color: #CC3300; 
+ font-size: 2em;
+ text-align: center;
+}
+
+.d_note {
+ color: #574d44; 
+ text-align: center;
+}
+
+.d_add_msg {
+padding-left:18.5em;
+
+}
+
+.d_f_add_msg {
+ margin:0;
+ width: 450px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ color: #574d44;
+ border:1px #6d9b6d solid;
+ background: #d8ebd9;
+}
+
+
+.fixe-or {
+ float:left;
+ margin:0;
+ padding:0;
+ width:445px;
+ }
+ 
+ 
+ .fixe-or2 {
+ float:left;
+ margin:0;
+ padding-bottom:1em;
+ padding-left:0.4em;
+ width: 445px;
+ } 
+
+
+.add_msg_left {
+ float: left;
+ width: 160px;
+ text-align: left;
+ margin:0;
+ padding-left:1.3em;
+ line-height: 25px;
+}
+
+.fixe-or1 {
+ float:left;
+ margin:0;
+ padding-top:1.2em;
+ width:445px;
+ } 
+
+.add_msg_right {
+ text-align: left;
+ line-height: 25px;
+ margin:0;
+ padding:0;
+}
+
+.reponse {
+ border: 1px solid #B4B4B4;
+ background-color: #FFFFFF;
+ padding: 5px;
+}
+
+.code_sec {
+ font-family: Courier New;
+ font-size: 1.1em;
+ text-align: center;
+}
+
+.d_center {
+ text-align: center;
+}
+
+.d_center1 {
+ text-align: center;
+ width:440px;
+ padding:0;
+ margin:0;
+}
+
+
+.d_nbre_car {
+ text-align: left;
+ margin: -18px 0 0 16px;
+}
+
+.d_smileys {
+ text-align: center;
+ padding:0;
+}
+
+.body_all {
+ padding-left:8em;
+}
+
+.d_nb_mess_page {
+width:100%;
+float:left;
+background-color: #FFFFFF;
+ padding-top: 2px;
+ padding-bottom: 2px;
+height: 15px;
+border:1px #6d9b6d solid;
+}
+
+
+.three1 { 
+ float: left;
+ width: 34%;
+ text-align: left;
+ padding-left: 3px;
+}
+
+.three2 { 
+ float: left;
+ width: 30%;
+ text-align: center;
+}
+
+.three3 { 
+ float: right;
+ width: 34%;
+ text-align: right;
+ padding-right: 3px;
+}
+
+.d_liste_page {
+ padding: 1px;
+ height: 15px;
+}
+
+.three1_2 { 
+ float: left;
+ width: 25%;
+ text-align: left;
+}
+
+.three2_2 { 
+ float: left;
+ width: 49%;
+ text-align: center;
+}
+
+.three3_2 { 
+ float: right;
+ width: 25%;
+ text-align: right;
+}
+
+span.Gris_prec_suiv {
+ color: #C0C0C0;
+}
+
+.d_corps_msg {
+width:100%;
+background: #d8ebd9;
+border:1px #6d9b6d solid;
+padding: 2px;
+text-align: left;
+}
+
+.d_pseudo {
+ color: #e77623;
+ font-weight: bold;
+}
+
+.d_date {
+ color: #e77623;
+ float: right;
+ width: 145px;
+ text-align: right;
+}
+
+.d_code1{
+ display: inline;
+ float: left;
+ text-align: right;
+ height: 20px;
+ width: 238px;
+}
+
+.d_code2{
+ display: inline;
+ float: left;
+ text-align: left;
+ height: 20px;
+}
+
+.d_submit_msg {
+ padding-bottom:0.4em;
+ text-align: center;
+ clear: both;
+}
+
+.d_note_user {
+ font-weight: bold;
+ color: #574d44;
+ text-align: left;
+}

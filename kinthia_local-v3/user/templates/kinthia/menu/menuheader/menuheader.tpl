@@ -1,0 +1,1 @@
+{include file="templates/kinthia/menu/menuheader/menuheader.tpl"} 

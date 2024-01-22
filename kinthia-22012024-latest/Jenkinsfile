@@ -1,0 +1,17 @@
+pipeline {
+     agent any
+     stages {
+        stage("Build") {
+            steps {
+                sh "sudo git pull origin master"
+              
+            }
+        }
+        stage("Deploy") {
+            steps {
+                
+                sh "sudo cp -r ${WORKSPACE}/voyance/* /var/www/voyance/"
+            }
+        }
+    }
+}

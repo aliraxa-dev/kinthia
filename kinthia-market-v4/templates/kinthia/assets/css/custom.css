@@ -1,0 +1,105 @@
+.input-group input {
+    height: auto;
+}
+
+.row .consult-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchengine-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchengine-filter .active-filter-text {
+    display: flex;
+    align-items: center;
+    width: 105px;
+    padding: 0 8px;
+}
+
+.searchengine-filter .active-filter-items {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.searchengine-filter .active-filter-items .filter-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.searchengine-filter .filter-reset {
+    display: flex;
+    height: 34px;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer!important;
+}
+
+.searchengine-filter .filter-reset::before {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.filter-container {
+    text-align: center;
+}
+
+.filter-container .filter-item {
+    padding: 5px 25px;
+    text-align: center;
+}
+
+.category-filter-item span {
+    padding: 0;
+}
+
+.expert-sort-panel {
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+}
+
+.expert-sort-panel .expert-sort-title {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.expert-sort-panel > select {
+    display: inline-block;
+    width: auto;
+    padding: 0;
+}
+
+.expert-empty.bg-grey-expert {
+    padding: 40px;
+}
+
+.expert-empty.bg-grey-expert .expert-empty-message {
+    color: #bbb;
+    text-align: center;
+}
+
+.list-loader {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.expert-list-row {
+    position: relative;
+}
+
+.ajax-list-loader {
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    padding: 60px;
+    display: none;
+}

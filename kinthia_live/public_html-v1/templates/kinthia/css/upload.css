@@ -1,0 +1,63 @@
+
+.fileUploader img.uploaded
+{
+}
+
+.fileUploader #responseMessage
+{
+    font-weight: bold;
+}
+
+.fileUploader #responseMessage.waiting
+{
+    background: #FFF url(../images/loader.gif) left center no-repeat;
+    padding-left: 20px;
+}
+
+.fileUploader .delete
+{
+    background: url(../images/delete.png) no-repeat;
+    height: 20px;
+    width: 20px;
+    float: right;
+	position: relative;
+    cursor: pointer;
+	margin-left:-5px;
+	margin-top:0px;
+}
+
+.fileUploader .fileInfo
+{
+    margin: 10px auto 0px;
+    text-align: center;
+    width: 90%;
+}
+
+.fileUploader .uploadedFilesStats
+{
+    padding:0;
+    font-weight:bold;
+}
+
+.fileUploader .fileName
+{
+    color: #000;
+    font-size: 0.9em;
+}
+
+.fileUploader ul#uploadedFiles
+{
+    list-style-type: none;
+    position: relative;
+	float:left;
+	margin-left:-15px;
+}
+
+.fileUploader ul#uploadedFiles li
+{
+    border-right: 1px dotted #444;
+    float: left;
+	margin-top: 5px;
+    margin-bottom: 10px;
+    width: 170px;
+}

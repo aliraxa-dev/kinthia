@@ -1,0 +1,1 @@
+{'You are logged in as'|lang}:<br /><strong>{$session.login}</strong> [&nbsp;<a href="{'/voyantPanel/main/logOut'|url}">{'Login_Logout'|lang}</a>&nbsp;]  

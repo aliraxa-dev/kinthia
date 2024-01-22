@@ -1,0 +1,18 @@
+#Options +FollowSymlinks
+# REMEBER YOU ONLY NEED TO STARD MOD REWRITE ONCE
+RewriteEngine On
+
+#REWRITE BASE
+#RewriteBase /
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#RewriteCond %{HTTP_HOST} ^kinthia.com$ 
+#RewriteRule ^(.*)   https://www.kinthia.com/tirage-voyance/$1  [QSA,L,R=301]
+
+# HERE IS A GOOD PLACE TO ADD THE WWW PREFIXE REDIRECTION
+
+
+# HERE IS A GOOD PLACE TO ADD THE OLD SCRIPT REDIRECTION
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php/$0 [PT,L]

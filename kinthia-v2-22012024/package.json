@@ -1,0 +1,26 @@
+{
+  "name": "voyance-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat between user and voyantpanel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Rahul Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleaitsolution/voyance/issues"
+  },
+  "homepage": "https://github.com/aleaitsolution/voyance#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.41",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.1.2",
+    "socket.io-stream": "^0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
